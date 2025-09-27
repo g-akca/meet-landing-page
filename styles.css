@@ -256,6 +256,10 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+    .description {
+        font-size: 18px;
+    }
+
     #hero-section #users-img {
         display: none;
     }
@@ -275,7 +279,7 @@ body {
     }
 
     #hero-section h1 {
-        font-size: 48px;
+        font-size: 64px;
     }
 
     #hero-buttons {
@@ -298,11 +302,11 @@ body {
     }
 
     #info-section .mini-heading {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #info-section h2 {
-        font-size: 36px;
+        font-size: 40px;
         padding: 0 48px;
     }
 
@@ -330,7 +334,7 @@ body {
     }
 
     #download-section h2 {
-        font-size: 36px;
+        font-size: 40px;
         max-width: 400px;
     }
 
