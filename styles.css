@@ -260,6 +260,10 @@ body {
         font-size: 18px;
     }
 
+    #hero-section #logo-img {
+        margin: 80px 0 32px;
+    }
+
     #hero-section #users-img {
         display: none;
     }
@@ -275,7 +279,7 @@ body {
     }
 
     #hero-section #hero-text {
-        padding: 72px 124px 24px;
+        padding: 72px 112px 32px;
     }
 
     #hero-section h1 {
@@ -307,11 +311,11 @@ body {
 
     #info-section h2 {
         font-size: 40px;
-        padding: 0 48px;
+        padding: 0 36px;
     }
 
     #info-section #info-text {
-        padding: 0 316px;
+        padding: 0 300px;
     }
 
     #download-section {
@@ -322,20 +326,20 @@ body {
         display: flex;
         text-align: left;
         align-items: center;
-        gap: 72px;
-        padding: 112px 200px;
+        gap: 80px;
+        padding: 112px 176px;
     }
 
     #download-section #download-text {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 132px;
+        grid-template-columns: 1.2fr 1fr;
+        column-gap: 10px;
         padding: 0;
     }
 
     #download-section h2 {
         font-size: 40px;
-        max-width: 400px;
+        max-width: 420px;
     }
 
     #download-section .download-btn {
