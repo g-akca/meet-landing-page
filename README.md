@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/g-akca/meet-landing-page)
-- Live Site URL: [Add live site URL here](https://g-akca.github.io/meet-landing-page/)
+- Live Site URL: [Meet Landing Page](https://g-akca.github.io/meet-landing-page/)
 
 ## My process
 
