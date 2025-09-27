@@ -1,3 +1,4 @@
+/* General Styles */
 :root {
     --cyan-600: #4D96A9;
     --cyan-300: #8FE3F9;
@@ -17,38 +18,10 @@ body {
     background-color: var(--white);
 }
 
-#hero-section #logo-img {
-    margin: 52px 0;
-}
-
-#hero-section #users-img {
-    width: 114%;
-    transform: translateX(-7%);
-}
-
-#hero-section #hero-text {
-    padding: 20px 32px 8px;
-}
-
-#hero-section h1 {
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 110%;
-    color: var(--slate-900);
-    margin: 24px 0;
-}
-
 .description {
     font-weight: 500;
     line-height: 150%;
     color: var(--slate-600);
-}
-
-#hero-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
 }
 
 .download-btn, .info-btn {
@@ -61,18 +34,6 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     line-height: 150%;
     color: var(--white);
-}
-
-#hero-buttons .download-btn {
-    background-color: var(--cyan-600);
-}
-
-#hero-buttons .download-btn .version {
-    color: var(--cyan-300);
-}
-
-#hero-buttons .info-btn {
-    background-color: var(--purple-600);
 }
 
 .section-num {
@@ -97,6 +58,48 @@ body {
     background-color: var(--white);
 }
 
+/* Hero Section */
+#hero-section #logo-img {
+    margin: 52px 0;
+}
+
+#hero-section #users-img {
+    width: 114%;
+    transform: translateX(-7%);
+}
+
+#hero-section #hero-text {
+    padding: 20px 32px 8px;
+}
+
+#hero-section h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 110%;
+    color: var(--slate-900);
+    margin: 24px 0;
+}
+
+#hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+#hero-buttons .download-btn {
+    background-color: var(--cyan-600);
+}
+
+#hero-buttons .download-btn .version {
+    color: var(--cyan-300);
+}
+
+#hero-buttons .info-btn {
+    background-color: var(--purple-600);
+}
+
+/* Info Section */
 #info-section {
     padding: 32px;
 }
@@ -138,6 +141,7 @@ body {
     margin: 16px 0 32px;
 }
 
+/* Download Section */
 #download-section {
     padding: 64px 32px 32px;
     background: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url(./assets/mobile/image-footer.jpg);
