@@ -14,6 +14,7 @@ body {
     font-size: 16px;
     margin: 0;
     text-align: center;
+    background-color: var(--white);
 }
 
 #hero-section #logo-img {
@@ -36,7 +37,7 @@ body {
     color: var(--slate-900);
 }
 
-#hero-section .description {
+.description {
     font-weight: 500;
     line-height: 150%;
     color: var(--slate-600);
@@ -87,4 +88,22 @@ body {
 #info-section #img-grid img {
     width: 100%;
     border-radius: 8px;
+}
+
+#info-section .mini-heading {
+    line-height: 110%;
+    color: var(--cyan-600);
+    letter-spacing: 4px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+}
+
+#info-section h2 {
+    margin: 16px 0 32px;
+    color: var(--slate-900);
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 900;
 }
