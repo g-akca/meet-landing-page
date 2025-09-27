@@ -16,6 +16,8 @@ body {
     margin: 0;
     text-align: center;
     background-color: var(--white);
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .description {
