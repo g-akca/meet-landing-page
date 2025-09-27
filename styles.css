@@ -16,8 +16,6 @@ body {
     margin: 0;
     text-align: center;
     background-color: var(--white);
-    width: 100vw;
-    overflow-x: hidden;
 }
 
 .description {
@@ -69,13 +67,18 @@ body {
 }
 
 /* Hero Section */
+#hero-section {
+    overflow-x: hidden;
+}
+
 #hero-section #logo-img {
     margin: 48px 0 64px;
 }
 
 #hero-section #users-img {
-    width: 114%;
-    transform: translateX(-7%);
+    width: 100%;
+    transform: scale(1.14);
+    transform-origin: center;
 }
 
 #hero-section #users-left, #hero-section #users-right {
@@ -199,8 +202,7 @@ body {
 /* Responsive Media Queries */
 @media screen and (min-width: 768px) {
     #hero-section #users-img {
-        width: 108%;
-        transform: translateX(-4%);
+        transform: scale(1.08);
     }
 
     #hero-section #hero-text {
@@ -247,7 +249,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
     #hero-section #users-img {
         display: none;
     }
