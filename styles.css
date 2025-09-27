@@ -54,7 +54,7 @@ body {
 .download-btn, .info-btn {
     display: block;
     border: none;
-    padding: 14px 40px;
+    padding: 16px 40px;
     border-radius: 29px;
     font-size: 16px;
     font-weight: 900;
@@ -75,8 +75,34 @@ body {
     background-color: var(--purple-600);
 }
 
-#info-section, #download-section {
+.section-num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-num .num-hanger {
+    width: 1px;
+    height: 80px;
+    background-color: var(--slate-300);
+}
+
+.section-num span {
+    padding: 16px 19px;
+    border: 1px solid var(--slate-300);
+    border-radius: 50%;
+    color: var(--slate-600);
+    font-weight: 900;
+    line-height: 150%;
+    background-color: var(--white);
+}
+
+#info-section {
     padding: 32px;
+}
+
+#info-section .section-num {
+    margin-top: 32px;
 }
 
 #info-section #img-grid {
@@ -113,8 +139,17 @@ body {
 }
 
 #download-section {
+    padding: 64px 32px 32px;
     background: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url(./assets/mobile/image-footer.jpg);
     background-size: cover;
+    margin-top: 120px;
+    position: relative;
+}
+
+#download-section .section-num {
+    position: absolute;
+    top: -108px;
+    left: calc(50% - 28px);
 }
 
 #download-section h2 {
@@ -128,7 +163,7 @@ body {
 }
 
 #download-section .download-btn {
-    margin: 0 auto 24px;
+    margin: 0 auto 30px;
     background-color: var(--purple-600);
     color: var(--white);
 }
