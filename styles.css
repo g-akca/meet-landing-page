@@ -22,6 +22,13 @@ body {
     font-weight: 500;
     line-height: 150%;
     color: var(--slate-600);
+    margin: 0;
+}
+
+#info-section h2, #download-section h2 {
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 900;
 }
 
 .download-btn, .info-btn {
@@ -36,7 +43,6 @@ body {
     color: var(--white);
     transition: 0.5s;
 }
-
 .section-num {
     display: flex;
     flex-direction: column;
@@ -61,7 +67,7 @@ body {
 
 /* Hero Section */
 #hero-section #logo-img {
-    margin: 52px 0;
+    margin: 48px 0 64px;
 }
 
 #hero-section #users-img {
@@ -70,7 +76,7 @@ body {
 }
 
 #hero-section #hero-text {
-    padding: 20px 32px 8px;
+    padding: 48px 32px 24px;
 }
 
 #hero-section h1 {
@@ -78,7 +84,7 @@ body {
     font-weight: 900;
     line-height: 110%;
     color: var(--slate-900);
-    margin: 24px 0;
+    margin: 0 0 24px;
 }
 
 #hero-buttons {
@@ -139,12 +145,6 @@ body {
     margin: 0;
 }
 
-#info-section h2, #download-section h2 {
-    font-size: 32px;
-    line-height: 110%;
-    font-weight: 900;
-}
-
 #info-section h2 {
     color: var(--slate-900);
     margin: 16px 0 32px;
@@ -187,4 +187,55 @@ body {
 
 #download-section .download-btn .version {
     color: var(--purple-300);
+}
+
+/* Responsive Media Queries */
+@media screen and (min-width: 768px) {
+    #hero-section #users-img {
+        width: 108%;
+        transform: translateX(-4%);
+    }
+
+    #hero-section #hero-text {
+        padding: 72px 164px 24px;
+    }
+
+    #hero-section h1 {
+        font-size: 48px;
+    }
+
+    #hero-buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    #info-section {
+        padding: 64px 32px;
+    }
+
+    #info-section .section-num {
+        margin-top: 56px;
+    }
+
+    #info-section #img-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #info-section .mini-heading {
+        font-size: 14px;
+    }
+
+    #info-section h2, #download-section h2 {
+        font-size: 36px;
+        padding: 0 12px;
+    }
+
+    #info-section #info-text, #download-section #download-text {
+        padding: 0 100px;
+    }
+
+    #download-section {
+        background: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url(./assets/tablet/image-footer.jpg);
+    }
 }
