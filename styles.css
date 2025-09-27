@@ -231,6 +231,7 @@ body {
 
     #info-section #img-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 24px;
     }
 
     #info-section .mini-heading {
@@ -293,6 +294,7 @@ body {
 
     #info-section #img-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 32px;
     }
 
     #info-section .mini-heading {
