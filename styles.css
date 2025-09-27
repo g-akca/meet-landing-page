@@ -261,7 +261,7 @@ body {
     }
 
     #hero-section #logo-img {
-        margin: 80px 0 32px;
+        margin: 80px 0 0;
     }
 
     #hero-section #users-img {
@@ -270,6 +270,10 @@ body {
 
     #hero-section #users-left, #hero-section #users-right {
         display: block;
+    }
+
+    #hero-section #users-right {
+        padding-top: 112px;
     }
 
     #hero-section .flex-container {
