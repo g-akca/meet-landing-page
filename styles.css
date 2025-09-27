@@ -73,7 +73,18 @@ body {
     background-color: var(--purple-600);
 }
 
-/* Temporary */
-#img-grid img {
+#info-section {
+    padding: 32px;
+}
+
+#info-section #img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 64px 0;
+}
+
+#info-section #img-grid img {
     width: 100%;
+    border-radius: 8px;
 }
